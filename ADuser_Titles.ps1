@@ -1,0 +1,1 @@
+﻿Get-ADUser -Properties * | Select-Object SamAccountName, Title, Department | Sort-Object SamAccountName | Export-Csv C:\user-titles.csv
